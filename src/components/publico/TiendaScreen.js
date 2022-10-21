@@ -33,6 +33,11 @@ export const TiendaScreen = () => {
                         <div className='carousel-jpg'>
                             <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820240/alcancia_portada1_tkyec0.jpg' alt='corona' className='contentStyle'/>
                         </div>
+
+                        <div className='carousel-jpg'>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1666312954/WhatsApp_Image_2022-10-20_at_5.33.38_PM_dplgoo.jpg' alt='corona' className='contentStyle'/>
+                        </div>
+                       
                         <div className='carousel-jpg'>
                             <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820240/portarretrato3_cvodyw.jpg' alt='corona' className='contentStyle'/>
                         </div>
