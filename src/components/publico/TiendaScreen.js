@@ -134,6 +134,18 @@ export const TiendaScreen = () => {
                 </div>
                 
             </div>
+            <div className='div-img'>
+                <div className='fondo-img new-banner1'>
+
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1668056762/compra_online_kxjz5h.jpg' alt='fondo' className='fondo-img' />
+                </div>
+
+                <div className='fondo-img new-banner2'>
+
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1668056761/punto_gwg860.jpg' alt='fondo' className='fondo-img animate__animated' />
+                </div>
+                
+            </div>
 
         </div>
     )
