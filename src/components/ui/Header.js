@@ -115,7 +115,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1665208720/oto%C3%B1o2_xaqkeo.jpg' alt='byfeliz' width={120} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='byfeliz' width={120} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -155,8 +155,8 @@ export const Header = () => {
                        
                                                 
                         >
-                             <Button onClick={onClose}  style={{backgroundColor:'#F58634',border:'none',borderRadius:20,color:'white'}} ><LogoutOutlined />Cerrar panel</Button>
-                            <h1 style={{color:'#F58634',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
+                             <Button onClick={onClose}  style={{backgroundColor:'#DE0000',border:'none',borderRadius:20,color:'white'}} ><LogoutOutlined />Cerrar panel</Button>
+                            <h1 style={{color:'#DE0000',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
                             <ul style={{width: '100%',display:'list-item',alignItems:'center',justifyContent:'center'}}>
 
                                 <li style={{color:'#F58634',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
@@ -231,7 +231,7 @@ export const Header = () => {
         
         <div>
             <div style={{width:'100%'}}>
-            <Button type="primary" style={{backgroundColor:'#F58634',border:'none',borderRadius:20}} onClick={closeDrawer}>
+            <Button type="primary" style={{backgroundColor:'#DE0000',border:'none',borderRadius:20}} onClick={closeDrawer}>
             <LogoutOutlined />Cerrar panel
             </Button>
             </div>
@@ -255,7 +255,7 @@ export const Header = () => {
                             (google===false) ? (
                                 <Col className='gutter-row' span={24}>
                                     <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-                                        <Button style={{borderRadius:30,backgroundColor:'#F58634',border:'none',marginBottom:10,width:'50%'}} block type='primary'  onClick={handleLogout}>
+                                        <Button style={{borderRadius:30,backgroundColor:'#DE0000',border:'none',marginBottom:10,width:'50%'}} block type='primary'  onClick={handleLogout}>
                                             Cerrar sesion
                                         </Button>
 
@@ -297,14 +297,14 @@ export const Header = () => {
                 ?
 
                 <div style={{padding: '25px'}}>
-                    <h1 style={{color: '#F58634',textAlign:'center'}}><i>Iniciar sesion</i></h1>
+                    <h1 style={{color: '#DE0000',textAlign:'center'}}><i>Iniciar sesion</i></h1>
                     <LoginScreen changeAuth={changeAuth} closeDrawer={closeDrawer}/>
                 </div>
 
                 : auth === 'registro' &&
                     
                 <div style={{padding: '25px'}}>
-                    <h1 style={{color: '#F58634',textAlign:'center'}}><i>Registrate</i></h1>
+                    <h1 style={{color: '#DE0000',textAlign:'center'}}><i>Registrate</i></h1>
                     <RegisterScreen changeAuth={changeAuth} closeDrawer={closeDrawer}/>
                 </div>
             }

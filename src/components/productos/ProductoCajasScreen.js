@@ -166,7 +166,7 @@ const handleEditarPortada = (e,idproducto) => {
                 <Col span={24}>
                   <div style={{textAlign:'center',marginBottom:30}}>
 
-                    <Button type="primary" block style={{width:'100%',backgroundColor:'#F58634',border:'none',borderRadius:30,fontSize:20,height:40,fontFamily:'-moz-initial'}} onClick={()=>handleGallery(producto.images,id)}><span style={{textAlign:'center'}}>Mostrar mas imágenes o modelos</span></Button>
+                    <Button type="primary" block style={{width:'100%',backgroundColor:'#DE0000',border:'none',borderRadius:30,fontSize:20,height:40,fontFamily:'-moz-initial'}} onClick={()=>handleGallery(producto.images,id)}><span style={{textAlign:'center'}}>Mostrar mas imágenes o modelos</span></Button>
 
                   </div>
                 
@@ -239,7 +239,7 @@ const handleEditarPortada = (e,idproducto) => {
 
                   </div>
                   <div className='div-button' >
-                    <Button type='primary' block style={{marginTop:15,width:'100%',borderRadius:30,backgroundColor:'#F58634',border:'none',fontFamily:'-moz-initial'}} onClick={handlePhoto} >Añadir imagen y comentario</Button>
+                    <Button type='primary' block style={{marginTop:15,width:'100%',borderRadius:30,backgroundColor:'#DE0000',border:'none',fontFamily:'-moz-initial'}} onClick={handlePhoto} >Añadir imagen y comentario</Button>
 
                   </div>
                 </Col>
@@ -302,7 +302,7 @@ const handleEditarPortada = (e,idproducto) => {
                   
 
                       <Form.Item>
-                        <Button  htmlType="submit" type="primary" style={{backgroundColor:'#F58634',border:'none',borderRadius:30}} >
+                        <Button  htmlType="submit" type="primary" style={{backgroundColor:'#DE0000',border:'none',borderRadius:30}} >
                           Añadir comentario y calificación
                         </Button>
                       </Form.Item>

@@ -60,12 +60,12 @@ export const TiendaScreen = () => {
                     <h1 style={{textAlign:'center',}}><i>Diseños MDF</i></h1>
                     <div style={{textAlign:'center'}}>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820244/llavero_fmu4um.jpg' alt='esfera' width={260} height={250} className='img-tres' />
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820244/llavero_fmu4um.jpg' alt='esfera' width={260} height={270} className='img-tres' />
                     <div style={{height:70}}>
                     <p style={{marginTop:'10px',fontSize:'15px'}}>Contamos con una gran variedad de diseños en MDF</p>
 
                     </div>
-                    <Button type="primary" size='large' block style={{width:'60%',backgroundColor:'#F58634',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleMDF}>
+                    <Button type="primary" size='large' block style={{width:'60%',backgroundColor:'#DE0000',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleMDF}>
                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver productos</span>
                     </Button>
 
@@ -76,14 +76,14 @@ export const TiendaScreen = () => {
                     <h1 style={{textAlign:'center'}}><i>Diseños en vinilo</i></h1>
                     <div style={{textAlign:'center'}}>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820243/termo4_p7msuo.jpg' alt='termo' width={240} height={250} className='img-tres' />
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820243/termo4_p7msuo.jpg' alt='termo' width={240} height={270} className='img-tres' />
 
                     <div style={{height:70}}>
 
                     <p  style={{marginTop:'10px',fontSize:'15px'}}>Contamos con una gran variedad de diseños en vinil</p>
                     </div>
 
-                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#F58634',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleVinilo}>
+                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#DE0000',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleVinilo}>
                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver productos</span>
                     </Button>
                     </div>
@@ -93,11 +93,11 @@ export const TiendaScreen = () => {
                     <h1 style={{textAlign:'center'}}><i>Otros productos</i></h1>
                     <div style={{textAlign:'center'}}>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820242/cactus_yqsw0u.jpg' alt='caja' width={240} height={250} className='img-tres' />
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820242/cactus_yqsw0u.jpg' alt='caja' width={240} height={270} className='img-tres' />
                     <div style={{width:'100%',height:70}}>
                     <p style={{marginTop:'10px',fontSize:'15px'}}>Contamos con gran variedad de cajas personalizadas para toda ocasión</p>
                     </div>
-                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#F58634',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleCajas}>
+                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#DE0000',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleCajas}>
                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver productos</span>
                     </Button>
                     </div>
@@ -125,7 +125,7 @@ export const TiendaScreen = () => {
             <div className='div-img'>
                 <div className='fondo-img new-banner1'>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1665208720/oto%C3%B1o1_akv9m3.jpg' alt='fondo' className='fondo-img' />
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073362/dinamica_pv2xyp.jpg' alt='fondo' className='fondo-img' />
                 </div>
 
                 <div className='fondo-img new-banner2'>

@@ -143,7 +143,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .header-principal {
     /*background-color: #F58634;*/
-    background-image: url('https://res.cloudinary.com/dwvfkyc6l/image/upload/v1665256818/halloween-night-frame-with-bats-and-jack-o-lanterns-vector-poster-vector-id1280218554_b3fzvu.jpg');
+    background-image: url('https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073656/navi_oesgmt.png');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -166,8 +166,8 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .btn-login {
     margin-top: 10px;
-    background-color:#F58634 !important;
-    border-color: #F58634 !important;
+    background-color:#DE0000 !important;
+    border-color: #DE0000 !important;
     float: left;
 }
 
@@ -175,7 +175,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
     position: relative;
     height: 90px;
     box-shadow: 0 0 10px #d1d1d1;
-    color: #F58634;
+    color: #DE0000;
     width: 100%;
 }
 
@@ -219,7 +219,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/105/420/864/halloween-background-hd-wallpaper-preview.jpg');
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200923/pngtree-pine-branches-border-christmas-background-image_399330.jpg');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -273,7 +273,7 @@ ul{
 }
 
 .pie-pagina .grupo-2{
-    background-color:  black ;
+    background-color: #9E021A ;
     text-align: center;
     padding:15px 10px;
     color: white;
@@ -341,7 +341,7 @@ ul{
     padding-top: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-top: 20px solid #F58634 !important;
+    border-top: 20px solid #DE0000 !important;
     border-radius: 10% 10% ;
     min-width: 100%;
     height: 100px;
@@ -407,7 +407,7 @@ ul{
 }
 
 textarea.ant-input:hover{
-    border: 1px solid #F58634;
+    border: 1px solid #DE0000;
 }
 /*---------------------------------------------------------------------------*/
 
@@ -454,7 +454,7 @@ textarea.ant-input:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #F58634;
+    background: #DE0000;
     color: #fff;
     visibility: hidden;
     opacity: 0;

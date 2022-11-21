@@ -65,7 +65,7 @@ export const NewPassword = () => {
                         <Form.Item
                         
                         >
-                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'#F58634',border:'none',width:'50%'}} htmlType="submit">
+                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'#DE0000',border:'none',width:'50%'}} htmlType="submit">
                             Cambiar
                             </Button>
                         </Form.Item>

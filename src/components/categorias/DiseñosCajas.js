@@ -153,12 +153,12 @@ export const DiseñosCajas = () => {
 
                                             <Card.Grid  hoverable={false} style={{width: '100%', boxShadow: 'none'}}>
                                                 <div>
-                                                    <Button type="primary" block style={{backgroundColor:'#F58634',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleCajas(cajas._id)}>
+                                                    <Button type="primary" block style={{backgroundColor:'#DE0000',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleCajas(cajas._id)}>
                                                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver detalles</span>
                                                     </Button>
                                                     {
                                                         (id && rol==='ADMIN_ROLE') && (
-                                                            <Button type="primary" block style={{backgroundColor:'#F58634',border:'none',borderRadius:30}} onClick={()=>handleEditar(cajas._id,cajas.nombre,cajas.precio,cajas.categoria._id,cajas.descripcion,cajas.medidas,cajas.adicional)}>
+                                                            <Button type="primary" block style={{backgroundColor:'#DE0000',border:'none',borderRadius:30}} onClick={()=>handleEditar(cajas._id,cajas.nombre,cajas.precio,cajas.categoria._id,cajas.descripcion,cajas.medidas,cajas.adicional)}>
                                                                 <EditOutlined style={{fontSize:20}} /> <span style={{fontSize:15,fontWeight:'bold'}}>Editar producto</span>
                                                             </Button>
 
@@ -204,7 +204,7 @@ export const DiseñosCajas = () => {
                 (id && rol==='ADMIN_ROLE') && (
                     <>
                         <Container>
-                            <FloatingButton onClick={showModal} styles={{backgroundColor: '#F58634', color: 'white'}}><PlusOutlined style={{fontSize: '20px',cursor:'pointer'}} /></FloatingButton>
+                            <FloatingButton onClick={showModal} styles={{backgroundColor: '#DE0000', color: 'white'}}><PlusOutlined style={{fontSize: '20px',cursor:'pointer'}} /></FloatingButton>
                         </Container>
 
                         <ModalCajasScreen
