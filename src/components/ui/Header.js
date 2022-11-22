@@ -84,9 +84,9 @@ export const Header = () => {
                setVisible(false)
                
                break;
-            case 'Letras':
+            case 'Libro':
 
-                navigate('/search/categoria/Letras')
+                navigate('/search/categoria/Libro')
                 setVisible(false)
                 break;
             case 'Portarretratos':
@@ -146,7 +146,7 @@ export const Header = () => {
                 {
                     (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) ? (
                         <>
-                        <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'white',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#F58634'}}>Categorias</span></Button>
+                        <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'white',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#DE0000'}}>Categorias</span></Button>
                         <Drawer 
                         placement='left'
                         closable={false}
@@ -159,17 +159,17 @@ export const Header = () => {
                             <h1 style={{color:'#DE0000',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
                             <ul style={{width: '100%',display:'list-item',alignItems:'center',justifyContent:'center'}}>
 
-                                <li style={{color:'#F58634',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                                <li style={{color:'#F58634',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Letras </li>
-                                <li style={{color:'#F58634',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
-                                <li style={{color:'#F58634',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                                <li style={{color:'#F58634',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro </li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos</li>
 
 
                             </ul>
                             <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:25}}>
 
-                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1665208720/oto%C3%B1o2_xaqkeo.jpg' alt='byfeliz' width={170}/>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='byfeliz' width={170}/>
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
@@ -182,7 +182,7 @@ export const Header = () => {
                         <ul style={{width: '100%',display:'inline-flex',alignItems:'center',justifyContent:'center'}}>
 
                             <li style={{color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Letras</li>
+                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro</li>
                             <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
                             <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
                             <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos</li>
@@ -283,7 +283,7 @@ export const Header = () => {
 
                     <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:60}}>
 
-                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1665208720/oto%C3%B1o2_xaqkeo.jpg' alt='byfeliz' width={170}/>
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='byfeliz' width={170}/>
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>
