@@ -84,9 +84,9 @@ export const Header = () => {
                setVisible(false)
                
                break;
-            case 'Libro':
+            case 'Libro de firmas':
 
-                navigate('/search/categoria/Libro')
+                navigate('/search/categoria/Libro de firmas')
                 setVisible(false)
                 break;
             case 'Portarretratos':
@@ -97,8 +97,12 @@ export const Header = () => {
                 navigate('/search/categoria/Alcancias')
                 setVisible(false)
                 break;
-            case 'Termos':
-                navigate('/search/categoria/Termos')
+            case 'Termos de acrilico':
+                navigate('/search/categoria/Termos de acrilico')
+                setVisible(false)
+                break;
+            case 'Termos de metal':
+                navigate('/search/categoria/Termos de metal')
                 setVisible(false)
                 break;
 
@@ -115,7 +119,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='byfeliz' width={120} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='byfeliz' width={120} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -160,16 +164,17 @@ export const Header = () => {
                             <ul style={{width: '100%',display:'list-item',alignItems:'center',justifyContent:'center'}}>
 
                                 <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro </li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
                                 <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
                                 <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
 
 
                             </ul>
                             <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:25}}>
 
-                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='byfeliz' width={170}/>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='byfeliz' width={170}/>
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
@@ -182,10 +187,12 @@ export const Header = () => {
                         <ul style={{width: '100%',display:'inline-flex',alignItems:'center',justifyContent:'center'}}>
 
                             <li style={{color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro</li>
+                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
                             <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
                             <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos</li>
+                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
+
 
                             
                         </ul>
@@ -283,7 +290,7 @@ export const Header = () => {
 
                     <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:60}}>
 
-                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='byfeliz' width={170}/>
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='byfeliz' width={170}/>
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>

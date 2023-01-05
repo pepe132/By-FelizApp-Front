@@ -143,7 +143,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .header-principal {
     /*background-color: #F58634;*/
-    background-image: url('https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073656/navi_oesgmt.png');
+    background-image: url('https://www.elfinanciero.com.mx/resizer/tOsaW3ynp1tMFJ60y4J8JYgYq88=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/WE57OXITA5F5RI73H4XOBFI22E.jpeg');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -219,7 +219,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200923/pngtree-pine-branches-border-christmas-background-image_399330.jpg');
+    background-image: url('https://t3.ftcdn.net/jpg/00/99/18/98/360_F_99189889_5ye7NyiLdsnhsTUd3CNVIuPTmsSHQN5M.jpg');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -263,7 +263,7 @@ ul{
     line-height: 45px;
     color: white;
     margin-right: 10px;
-    background-color: #2B612D;
+    background-color: #8C0300;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -273,7 +273,7 @@ ul{
 }
 
 .pie-pagina .grupo-2{
-    background-color: #9E021A ;
+    background-color: #141319 ;
     text-align: center;
     padding:15px 10px;
     color: white;

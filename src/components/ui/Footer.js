@@ -10,7 +10,7 @@ export const Footer = () => {
 			<div className='box'>
 				<figure>
 				
-					<img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1669073369/logo_navide%C3%B1o_vtjira.jpg' alt='logo-byfeliz'/>
+					<img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='logo-byfeliz'/>
 					
 				</figure>
 			</div>

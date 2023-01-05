@@ -130,7 +130,7 @@ export const TiendaScreen = () => {
 
                 <div className='fondo-img new-banner2'>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657819829/aviso_g2eowu.jpg' alt='fondo' className='fondo-img animate__animated' />
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672895558/image_reyes_dxb8ys.jpg' alt='fondo' className='fondo-img animate__animated' />
                 </div>
                 
             </div>
