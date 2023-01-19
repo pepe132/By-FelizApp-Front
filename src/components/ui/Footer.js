@@ -10,7 +10,7 @@ export const Footer = () => {
 			<div className='box'>
 				<figure>
 				
-					<img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='logo-byfeliz'/>
+					<img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='logo-byfeliz'/>
 					
 				</figure>
 			</div>
@@ -33,7 +33,7 @@ export const Footer = () => {
 			</div>
 		</div>
 		<div className='grupo-2'>
-			<small>&copy; 2022 <b>ByFeliz</b> - Todos los derechos reservados</small>
+			<small>&copy; 2023 <b>ByFeliz</b> - Todos los derechos reservados</small>
 
 		</div>
 	</footer>

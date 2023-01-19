@@ -119,7 +119,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='byfeliz' width={120} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -141,9 +141,9 @@ export const Header = () => {
                 
                 <ul style={{width: '80%',display:'inline-flex',marginTop:'10px',alignItems:'center',justifyContent:'center'}}>
 
-                    <li style={{color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleMdf}>Diseños MDF</li>
-                    <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleVinil}>Diseños en Vinil</li>
-                    <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleCajas}>Cajas personalizadas y Otros productos</li>
+                    <li style={{color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleMdf}>Diseños MDF</li>
+                    <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleVinil}>Diseños en Vinil</li>
+                    <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleCajas}>Cajas personalizadas y Otros productos</li>
                     
                 </ul>
 
@@ -152,6 +152,7 @@ export const Header = () => {
                         <>
                         <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'white',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#DE0000'}}>Categorias</span></Button>
                         <Drawer 
+                        
                         placement='left'
                         closable={false}
                         onClose={onClose}
@@ -174,7 +175,7 @@ export const Header = () => {
                             </ul>
                             <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:25}}>
 
-                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='byfeliz' width={170}/>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='byfeliz' width={170}/>
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
@@ -186,12 +187,12 @@ export const Header = () => {
 
                         <ul style={{width: '100%',display:'inline-flex',alignItems:'center',justifyContent:'center'}}>
 
-                            <li style={{color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
-                            <li style={{marginLeft:'10px',color:'white',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
+                            <li style={{color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
+                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
+                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
+                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
+                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
 
 
                             
@@ -209,19 +210,19 @@ export const Header = () => {
                 <div style={{textAlign:'center',width:'100%'}}>
                     {
                         (id) ? 
-                        <h1 style={{fontSize:'20px',color:'white'}}>Bienvenido {nombre}</h1>
+                        <h1 style={{fontSize:'20px',color:'#DE0000'}}>Bienvenido {nombre}</h1>
                         :
-                        <h3 style={{color:'white',fontWeight:'bold'}}>Ven y descubre nuestros productos</h3>
+                        <h3 style={{color:'#DE0000',fontWeight:'bold'}}>Ven y descubre nuestros productos</h3>
                     }
                     <ul style={{display:'inline-flex',marginTop:'12px'}}>
-                        <li style={{color:'white',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}} onClick={openDrawer}>
+                        <li style={{color:'#DE0000',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}} onClick={openDrawer}>
                             {
                             (!id) ? 'Iniciar Sesión' : 'Cerrar Sesión'
                             }
                         </li>
                         {
                             (!id) && (
-                                <li style={{color:'white',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}}  onClick={openDrawerRegister}>Crear Cuenta</li>
+                                <li style={{color:'#DE0000',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}}  onClick={openDrawerRegister}>Crear Cuenta</li>
                             )
                         }
                         
@@ -290,7 +291,7 @@ export const Header = () => {
 
                     <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:60}}>
 
-                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672884941/reyes_magos_b4rtgh.jpg' alt='byfeliz' width={170}/>
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='byfeliz' width={170}/>
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>

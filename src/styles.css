@@ -2,11 +2,13 @@
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
+    
 }
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+    
 }
 .carousel-jpg{
     width: 100%;
@@ -143,7 +145,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .header-principal {
     /*background-color: #F58634;*/
-    background-image: url('https://www.elfinanciero.com.mx/resizer/tOsaW3ynp1tMFJ60y4J8JYgYq88=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/WE57OXITA5F5RI73H4XOBFI22E.jpeg');
+    background-image: url('https://previews.123rf.com/images/cyberking/cyberking1503/cyberking150300239/37121537-bokeh-de-san-valent%C3%ADn-verde-fondo-bokeh-o-bokeh-fondo-de-pantalla.jpg');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -219,7 +221,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://t3.ftcdn.net/jpg/00/99/18/98/360_F_99189889_5ye7NyiLdsnhsTUd3CNVIuPTmsSHQN5M.jpg');
+    background-image: url('https://previews.123rf.com/images/cyberking/cyberking1503/cyberking150300493/37123069-fondo-de-san-valent%C3%ADn-chispa-bokeh-verde-o-papel-tapiz-bokeh.jpg');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -244,13 +246,13 @@ ul{
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color: white;
+    color:#DE0000;
     margin-bottom: 25px;
     font-size: 20px;
 }
 
 .pie-pagina .grupo-1 .box p{
-    color: #efefef;
+    color: #DE0000;
     margin-bottom: 10px;
     font-size: 17px;
 }
@@ -261,7 +263,7 @@ ul{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: white;
+    color:white ;
     margin-right: 10px;
     background-color: #8C0300;
     text-align: center;
@@ -269,14 +271,14 @@ ul{
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    color:#FCF105;
+    color:#5EC0A7;
 }
 
 .pie-pagina .grupo-2{
-    background-color: #141319 ;
     text-align: center;
+    /* background-color: #62CEAC ;
     padding:15px 10px;
-    color: white;
+    color: #DE0000; */
 }
 
 .pie-pagina .grupo-2 small{

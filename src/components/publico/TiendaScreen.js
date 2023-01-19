@@ -1,16 +1,45 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Carousel, Col, Row } from 'antd'
 
 import { useNavigate } from 'react-router';
+import Swal from 'sweetalert2';
 
 export const TiendaScreen = () => {
 
 
     const navigate=useNavigate();
+    const [showModal, setShowModal] = useState(true);
 
     useEffect(() => {
         window.scrollTo(0,0)
-    }, [])
+        if (showModal) {
+            
+            Swal.fire({
+                html: '<b>Podrás disfrutar de nuestros diseños para el dia del amor y la amistad, asi como muchos productos más...</b>',
+                imageUrl: 'https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078958/14febrero2_lilbw5.jpg',
+                imageWidth: 800,
+                imageHeight: 400,
+                imageAlt: 'Custom image',
+                padding: '1em',
+                color: '#DE0000',
+                background: "#fff url('https://e7.pngegg.com/pngimages/807/303/png-clipart-pink-heart-valentine-background-material-love-watercolor-painting-thumbnail.png')",
+                backdrop: `#FAE7E9`,
+                confirmButtonColor: '#DE0000',
+                confirmButtonText: 'Continuar',
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                  },
+                  hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                  }
+              })
+        }
+        setShowModal(false)
+    }, [showModal])
+
+   
+
+    
 
     const handleMDF=()=>{
         navigate('/categorias/disenos-mdf')
@@ -112,7 +141,7 @@ export const TiendaScreen = () => {
                         className='video'
                         autoPlay
                         muted
-                        loop='true'
+                        loop={true}
                             
                             >
                             <source src='https://res.cloudinary.com/dwvfkyc6l/video/upload/v1657819701/video1_pu2t41.mp4' type="video/mp4"></source>    
@@ -130,7 +159,7 @@ export const TiendaScreen = () => {
 
                 <div className='fondo-img new-banner2'>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1672895558/image_reyes_dxb8ys.jpg' alt='fondo' className='fondo-img animate__animated' />
+                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674022799/14febrero_taflts.jpg' alt='fondo' className='fondo-img animate__animated' />
                 </div>
                 
             </div>
