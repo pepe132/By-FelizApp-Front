@@ -152,7 +152,7 @@ export const Header = () => {
                         <>
                         <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'white',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#DE0000'}}>Categorias</span></Button>
                         <Drawer 
-                        
+                        bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}
                         placement='left'
                         closable={false}
                         onClose={onClose}
@@ -164,12 +164,12 @@ export const Header = () => {
                             <h1 style={{color:'#DE0000',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
                             <ul style={{width: '100%',display:'list-item',alignItems:'center',justifyContent:'center'}}>
 
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
 
 
                             </ul>
@@ -179,7 +179,7 @@ export const Header = () => {
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
-                                <p><i>&copy; 2022 Copyright : ByFeliz</i> </p>
+                                <p style={{color:'#DE0000'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
                             </div>
                         </Drawer>
                         </>
@@ -235,7 +235,12 @@ export const Header = () => {
     </Row> 
 
     <div>
-        <Drawer visible={coll} onClose={closeDrawer} closable={false} width={window.innerWidth > 767 ? '405px' : '95%'}>
+        <Drawer 
+        visible={coll} 
+        onClose={closeDrawer} 
+        closable={false} 
+        width={window.innerWidth > 767 ? '405px' : '95%'} 
+        bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}>
         
         <div>
             <div style={{width:'100%'}}>
@@ -250,7 +255,7 @@ export const Header = () => {
                     <div>
                         <Row gutter={{xs: 2, sm: 4, md: 8, lg: 16}} style={{padding: '25px'}}>
                             <Col className="gutter-row" span={24}>
-                            <p style={{fontSize:'20px', margin: '3px 0px 0px 0px',textAlign:'center'}}>Buen dia: {nombre}</p>
+                            <p style={{fontSize:'20px', margin: '3px 0px 0px 0px',textAlign:'center', color:'#DE0000', fontStyle:'italic', fontWeight:'bold'}}>Buen dia: {nombre}</p>
                             </Col>
                             
                         </Row>
@@ -295,7 +300,7 @@ export const Header = () => {
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>
-                        <p><i>&copy; 2022 Copyright : ByFeliz</i> </p>
+                        <p style={{color:'#DE0000', fontWeight:'bold'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
                     </div>
 
 

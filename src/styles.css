@@ -145,7 +145,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .header-principal {
     /*background-color: #F58634;*/
-    background-image: url('https://previews.123rf.com/images/cyberking/cyberking1503/cyberking150300239/37121537-bokeh-de-san-valent%C3%ADn-verde-fondo-bokeh-o-bokeh-fondo-de-pantalla.jpg');
+    background-image: url('https://thumbs.dreamstime.com/b/fondo-del-d%C3%ADa-de-san-valent%C3%ADn-rosa-corazones-para-el-con-efectos-rom%C3%A1nticos-boquilla-y-brillo-concepto-amor-abstracto-espacio-168457128.jpg');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -171,6 +171,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
     background-color:#DE0000 !important;
     border-color: #DE0000 !important;
     float: left;
+   
 }
 
 .header {
@@ -221,7 +222,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://previews.123rf.com/images/cyberking/cyberking1503/cyberking150300493/37123069-fondo-de-san-valent%C3%ADn-chispa-bokeh-verde-o-papel-tapiz-bokeh.jpg');
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-san-valentin-corazones-color-rosa_1308-37924.jpg?w=2000');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -249,12 +250,14 @@ ul{
     color:#DE0000;
     margin-bottom: 25px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .pie-pagina .grupo-1 .box p{
     color: #DE0000;
     margin-bottom: 10px;
     font-size: 17px;
+    font-weight: bold;
 }
 
 .pie-pagina .grupo-1 .red-social a{
