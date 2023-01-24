@@ -17,7 +17,7 @@ export const Footer = () => {
 			<div className='box'>
 				<h2>Contáctanos</h2>
 				<p><span><ShopFilled /> Av. Héroe de Nacozari norte #1117</span> Col. Gremial, Aguascalientes,Ags, México</p>
-				<p><PhoneFilled /> (+52) 449 399 16 99</p>
+				<p><PhoneFilled /> (+52) 492 124 77 77</p>
 				<p><GoogleCircleFilled /> byfeliz.asociacion@gmail.com</p>
 				
 			</div>
