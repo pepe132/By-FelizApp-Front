@@ -119,7 +119,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -152,7 +152,7 @@ export const Header = () => {
                         <>
                         <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'white',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#DE0000'}}>Categorias</span></Button>
                         <Drawer 
-                        bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}
+                        //bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}
                         placement='left'
                         closable={false}
                         onClose={onClose}
@@ -175,7 +175,7 @@ export const Header = () => {
                             </ul>
                             <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:25}}>
 
-                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='byfeliz' width={170}/>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={170}/>
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
@@ -240,7 +240,8 @@ export const Header = () => {
         onClose={closeDrawer} 
         closable={false} 
         width={window.innerWidth > 767 ? '405px' : '95%'} 
-        bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}>
+        // bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}
+        >
         
         <div>
             <div style={{width:'100%'}}>
@@ -296,7 +297,7 @@ export const Header = () => {
 
                     <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:60}}>
 
-                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1674078956/logo14febrero_c4qsju.jpg' alt='byfeliz' width={170}/>
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={170}/>
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>
