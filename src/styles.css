@@ -145,7 +145,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .header-principal {
     /*background-color: #F58634;*/
-    background-image: url('https://i.pinimg.com/736x/79/ae/80/79ae80c3d001116263797566378cef79.jpg');
+    background-image: url('https://i.pinimg.com/736x/48/cc/d5/48ccd563c78efc58a0518b4368c07969.jpg');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -168,8 +168,8 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .btn-login {
     margin-top: 10px;
-    background-color:#DE0000 !important;
-    border-color: #DE0000 !important;
+    background-color: #114B9C !important;
+    border-color: #114B9C !important;
     float: left;
    
 }
@@ -178,7 +178,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
     position: relative;
     height: 90px;
     box-shadow: 0 0 10px #d1d1d1;
-    color: #DE0000;
+    color: #114B9C;
     width: 100%;
 }
 
@@ -222,7 +222,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://us.123rf.com/450wm/kotkoa/kotkoa1505/kotkoa150500067/40099916-flores-de-primavera-wallpaper-sobre-fondo-blanco-ilustraci%C3%B3n-del-vector.jpg');
+    background-image: url('https://img.freepik.com/vector-premium/dia-nino-dibujado-mano-fondo-espanol_23-2149299342.jpg');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -247,14 +247,14 @@ ul{
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color:#DE0000;
+    color:#114B9C;
     margin-bottom: 25px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .pie-pagina .grupo-1 .box p{
-    color: #DE0000;
+    color: #114B9C;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
@@ -346,7 +346,7 @@ ul{
     padding-top: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-top: 20px solid #DE0000 !important;
+    border-top: 20px solid #114B9C !important;
     border-radius: 10% 10% ;
     min-width: 100%;
     height: 100px;
@@ -412,7 +412,7 @@ ul{
 }
 
 textarea.ant-input:hover{
-    border: 1px solid #DE0000;
+    border: 1px solid #114B9C;
 }
 /*---------------------------------------------------------------------------*/
 
@@ -459,7 +459,7 @@ textarea.ant-input:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #DE0000;
+    background: #114B9C;
     color: #fff;
     visibility: hidden;
     opacity: 0;

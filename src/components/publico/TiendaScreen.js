@@ -72,7 +72,7 @@ export const TiendaScreen = () => {
                     <p style={{marginTop:'10px',fontSize:'15px'}}>Contamos con una gran variedad de diseños en MDF</p>
 
                     </div>
-                    <Button type="primary" size='large' block style={{width:'60%',backgroundColor:'#DE0000',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleMDF}>
+                    <Button type="primary" size='large' block style={{width:'60%',backgroundColor:'#114B9C',border:'1px solid  #114B9C',borderRadius:'30px'}} onClick={handleMDF}>
                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver productos</span>
                     </Button>
 
@@ -81,16 +81,16 @@ export const TiendaScreen = () => {
 
                 <Col xs={24} sm={24} lg={8} style={{borderRight:'1px dashed  #b4c8c4'}}>
                     <h1 style={{textAlign:'center'}}><i>Diseños en vinilo</i></h1>
-                    <div style={{textAlign:'center'}}>
+                        <div style={{textAlign:'center'}}>
 
-                    <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820243/termo4_p7msuo.jpg' alt='termo' width={240} height={270} className='img-tres' />
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1657820243/termo4_p7msuo.jpg' alt='termo' width={240} height={270} className='img-tres' />
 
-                    <div style={{height:70}}>
+                        <div style={{height:70}}>
 
-                    <p  style={{marginTop:'10px',fontSize:'15px'}}>Contamos con una gran variedad de diseños en vinil</p>
+                        <p  style={{marginTop:'10px',fontSize:'15px'}}>Contamos con una gran variedad de diseños en vinil</p>
                     </div>
 
-                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#DE0000',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleVinilo}>
+                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#114B9C',border:'1px solid  #114B9C',borderRadius:'30px'}} onClick={handleVinilo}>
                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver productos</span>
                     </Button>
                     </div>
@@ -104,7 +104,7 @@ export const TiendaScreen = () => {
                     <div style={{width:'100%',height:70}}>
                     <p style={{marginTop:'10px',fontSize:'15px'}}>Contamos con gran variedad de cajas personalizadas para toda ocasión</p>
                     </div>
-                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#DE0000',border:'1px solid  #F58634',borderRadius:'30px'}} onClick={handleCajas}>
+                    <Button size='large' type="primary" block style={{width:'60%',backgroundColor:'#114B9C',border:'1px solid  #114B9C',borderRadius:'30px'}} onClick={handleCajas}>
                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver productos</span>
                     </Button>
                     </div>

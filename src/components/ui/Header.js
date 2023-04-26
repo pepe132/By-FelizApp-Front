@@ -119,7 +119,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1682399811/logo_ni%C3%B1o_bob0ie.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -141,16 +141,16 @@ export const Header = () => {
                 
                 <ul style={{width: '80%',display:'inline-flex',marginTop:'10px',alignItems:'center',justifyContent:'center'}}>
 
-                    <li style={{color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleMdf}>Diseños MDF</li>
-                    <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleVinil}>Diseños en Vinil</li>
-                    <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}} onClick={handleCajas}>Cajas personalizadas y Otros productos</li>
+                    <li style={{color:'#114B9C',fontSize:17,cursor:'pointer',fontWeight:'bold'}} onClick={handleMdf}>Diseños MDF</li>
+                    <li style={{marginLeft:'10px',color:'#114B9C',fontSize:17,cursor:'pointer',fontWeight:'bold'}} onClick={handleVinil}>Diseños en Vinil</li>
+                    <li style={{marginLeft:'10px',color:'#114B9C',fontSize:17,cursor:'pointer',fontWeight:'bold'}} onClick={handleCajas}>Cajas personalizadas y Otros productos</li>
                     
                 </ul>
 
                 {
                     (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) ? (
                         <>
-                        <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'white',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#DE0000'}}>Categorias</span></Button>
+                        <Button type='primary' style={{width:'50%',borderRadius:30,backgroundColor:'#ACABDC',border:'none',fontFamily:'-moz-initial',marginBottom:'5px'}} onClick={showDrawer} ><span style={{color:'#114B9C'}}>Categorias</span></Button>
                         <Drawer 
                         //bodyStyle={{backgroundImage:'url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pink-paper-cut-wind-love-valentines-day-background-design-image_267179.jpg")'}}
                         placement='left'
@@ -160,26 +160,26 @@ export const Header = () => {
                        
                                                 
                         >
-                             <Button onClick={onClose}  style={{backgroundColor:'#DE0000',border:'none',borderRadius:20,color:'white'}} ><LogoutOutlined />Cerrar panel</Button>
-                            <h1 style={{color:'#DE0000',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
+                             <Button onClick={onClose}  style={{backgroundColor:'#114B9C',border:'none',borderRadius:20,color:'white'}} ><LogoutOutlined />Cerrar panel</Button>
+                            <h1 style={{color:'#114B9C',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
                             <ul style={{width: '100%',display:'list-item',alignItems:'center',justifyContent:'center'}}>
 
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
-                                <li style={{color:'#DE0000',fontSize:20,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
+                                <li style={{color:'#114B9C',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
+                                <li style={{color:'#114B9C',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
+                                <li style={{color:'#114B9C',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
+                                <li style={{color:'#114B9C',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
+                                <li style={{color:'#114B9C',fontSize:21,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                                <li style={{color:'#114B9C',fontSize:21,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
 
 
                             </ul>
                             <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:25}}>
 
-                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={170}/>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1682399811/logo_ni%C3%B1o_bob0ie.jpg' alt='byfeliz' width={170}/>
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
-                                <p style={{color:'#DE0000'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
+                                <p style={{color:'#114B9C'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
                             </div>
                         </Drawer>
                         </>
@@ -187,12 +187,12 @@ export const Header = () => {
 
                         <ul style={{width: '100%',display:'inline-flex',alignItems:'center',justifyContent:'center'}}>
 
-                            <li style={{color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
-                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
-                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
-                            <li style={{marginLeft:'10px',color:'#DE0000',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
+                            <li style={{color:'#114B9C',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
+                            <li style={{marginLeft:'10px',color:'#114B9C',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
+                            <li style={{marginLeft:'10px',color:'#114B9C',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
+                            <li style={{marginLeft:'10px',color:'#114B9C',fontSize:15,cursor:'pointer',fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
+                            <li style={{marginLeft:'10px',color:'#114B9C',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                            <li style={{marginLeft:'10px',color:'#114B9C',fontSize:15,cursor:'pointer',fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
 
 
                             
@@ -210,19 +210,19 @@ export const Header = () => {
                 <div style={{textAlign:'center',width:'100%'}}>
                     {
                         (id) ? 
-                        <h1 style={{fontSize:'20px',color:'#DE0000'}}>Bienvenido {nombre}</h1>
+                        <h1 style={{fontSize:'20px',color:'#114B9C'}}>Bienvenido {nombre}</h1>
                         :
-                        <h3 style={{color:'#DE0000',fontWeight:'bold'}}>Ven y descubre nuestros productos</h3>
+                        <h3 style={{color:'#114B9C',fontWeight:'bold'}}>Ven y descubre nuestros productos</h3>
                     }
                     <ul style={{display:'inline-flex',marginTop:'12px'}}>
-                        <li style={{color:'#DE0000',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}} onClick={openDrawer}>
+                        <li style={{color:'#114B9C',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}} onClick={openDrawer}>
                             {
                             (!id) ? 'Iniciar Sesión' : 'Cerrar Sesión'
                             }
                         </li>
                         {
                             (!id) && (
-                                <li style={{color:'#DE0000',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}}  onClick={openDrawerRegister}>Crear Cuenta</li>
+                                <li style={{color:'#114B9C',fontSize:15,marginLeft:'10px',cursor:'pointer',fontWeight:'bold'}}  onClick={openDrawerRegister}>Crear Cuenta</li>
                             )
                         }
                         
@@ -245,7 +245,7 @@ export const Header = () => {
         
         <div>
             <div style={{width:'100%'}}>
-            <Button type="primary" style={{backgroundColor:'#DE0000',border:'none',borderRadius:20}} onClick={closeDrawer}>
+            <Button type="primary" style={{backgroundColor:'#114B9C',border:'none',borderRadius:20}} onClick={closeDrawer}>
             <LogoutOutlined />Cerrar panel
             </Button>
             </div>
@@ -256,7 +256,7 @@ export const Header = () => {
                     <div>
                         <Row gutter={{xs: 2, sm: 4, md: 8, lg: 16}} style={{padding: '25px'}}>
                             <Col className="gutter-row" span={24}>
-                            <p style={{fontSize:'20px', margin: '3px 0px 0px 0px',textAlign:'center', color:'#DE0000', fontStyle:'italic', fontWeight:'bold'}}>Buen dia: {nombre}</p>
+                            <p style={{fontSize:'20px', margin: '3px 0px 0px 0px',textAlign:'center', color:'#114B9C', fontStyle:'italic', fontWeight:'bold'}}>Buen dia: {nombre}</p>
                             </Col>
                             
                         </Row>
@@ -269,7 +269,7 @@ export const Header = () => {
                             (google===false) ? (
                                 <Col className='gutter-row' span={24}>
                                     <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
-                                        <Button style={{borderRadius:30,backgroundColor:'#DE0000',border:'none',marginBottom:10,width:'50%'}} block type='primary'  onClick={handleLogout}>
+                                        <Button style={{borderRadius:30,backgroundColor:'#114B9C',border:'none',marginBottom:10,width:'50%'}} block type='primary'  onClick={handleLogout}>
                                             Cerrar sesion
                                         </Button>
 
@@ -301,7 +301,7 @@ export const Header = () => {
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>
-                        <p style={{color:'#DE0000', fontWeight:'bold'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
+                        <p style={{color:'#114B9C', fontWeight:'bold'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
                     </div>
 
 
@@ -311,14 +311,14 @@ export const Header = () => {
                 ?
 
                 <div style={{padding: '25px'}}>
-                    <h1 style={{color: '#DE0000',textAlign:'center'}}><i>Iniciar sesion</i></h1>
+                    <h1 style={{color: '#114B9C',textAlign:'center'}}><i>Iniciar sesion</i></h1>
                     <LoginScreen changeAuth={changeAuth} closeDrawer={closeDrawer}/>
                 </div>
 
                 : auth === 'registro' &&
                     
                 <div style={{padding: '25px'}}>
-                    <h1 style={{color: '#DE0000',textAlign:'center'}}><i>Registrate</i></h1>
+                    <h1 style={{color: '#114B9C',textAlign:'center'}}><i>Registrate</i></h1>
                     <RegisterScreen changeAuth={changeAuth} closeDrawer={closeDrawer}/>
                 </div>
             }
