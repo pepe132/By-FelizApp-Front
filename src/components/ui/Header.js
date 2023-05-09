@@ -119,7 +119,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1682399811/logo_ni%C3%B1o_bob0ie.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1683603182/logo_dia_madres_t3qyqn.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -175,11 +175,11 @@ export const Header = () => {
                             </ul>
                             <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:25}}>
 
-                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1682399811/logo_ni%C3%B1o_bob0ie.jpg' alt='byfeliz' width={170}/>
+                            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1683603182/logo_dia_madres_t3qyqn.jpg' alt='byfeliz' width={170}/>
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
-                                <p style={{color:'#114B9C'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
+                                <p style={{color:'#114B9C'}}><i>&copy; 2023 Copyright : ByFeliz</i> </p>
                             </div>
                         </Drawer>
                         </>
@@ -297,7 +297,7 @@ export const Header = () => {
 
                     <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:60}}>
 
-                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={170}/>
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1683603182/logo_dia_madres_t3qyqn.jpg' alt='byfeliz' width={170}/>
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>
