@@ -145,7 +145,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .header-principal {
     /*background-color: #F58634;*/
-    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190731/pngtree-silver-textured-fathers-day-background-image_286033.jpg');
+    background-image: url('https://res.cloudinary.com/dwvfkyc6l/image/upload/v1685937848/foto_dos_qkvsa9.jpg');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -222,7 +222,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://i.pinimg.com/originals/22/02/2a/22022a4f73a59fa7850f2d7ab13d55b4.jpg');
+    background-image: url('https://res.cloudinary.com/dwvfkyc6l/image/upload/v1685937848/foto_uno_dacxoy.jpg');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -268,7 +268,7 @@ ul{
     line-height: 45px;
     color:white ;
     margin-right: 10px;
-    background-color: #8C0300;
+    background-color: #114B9C;
     text-align: center;
     transition: all 300ms ease;
 }
