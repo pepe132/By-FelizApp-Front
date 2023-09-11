@@ -119,7 +119,7 @@ export const Header = () => {
             
             <Col className='gutter-row' lg={4} sm={24} xs={24} md={4} >
                 <div style={{width:'100%',textAlign:'center',marginBottom:'10px'}}>
-                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1688710940/logoverano_giezzf.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
+                    <img  src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1694410663/WhatsApp_Image_2023-09-06_at_10.34.56_PM_xbf2op.jpg' alt='byfeliz' width={150} style={{cursor:'pointer'}} onClick={handleHome} />
 
                 </div>
                 
@@ -297,11 +297,11 @@ export const Header = () => {
 
                     <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginTop:60}}>
 
-                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1688710940/logoverano_giezzf.jpg' alt='byfeliz' width={170}/>
+                        <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1694410663/WhatsApp_Image_2023-09-06_at_10.34.56_PM_xbf2op.jpg' alt='byfeliz' width={170}/>
                     </div>
 
                     <div style={{textAlign:'center',marginTop:50}}>
-                        <p style={{color:'#114B9C', fontWeight:'bold'}}><i>&copy; 2022 Copyright : ByFeliz</i> </p>
+                        <p style={{color:'#114B9C', fontWeight:'bold'}}><i>&copy; 2023 Copyright : ByFeliz</i> </p>
                     </div>
 
 
