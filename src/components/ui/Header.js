@@ -160,16 +160,16 @@ export const Header = () => {
                        
                                                 
                         >
-                             <Button onClick={onClose}  style={{backgroundColor:'#114B9C',border:'none',borderRadius:20,color:'white'}} ><LogoutOutlined />Cerrar panel</Button>
-                            <h1 style={{color:'white',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
+                             <Button onClick={onClose}  style={{backgroundColor:'orange',border:'none',borderRadius:20,color:'white'}} ><LogoutOutlined />Cerrar panel</Button>
+                            <h1 style={{color:'orange',fontWeight:'bold'}}><i>Categorias de nuestra tienda</i></h1>
                             <ul style={{width: '100%',display:'list-item',alignItems:'center',justifyContent:'center'}}>
 
-                                <li style={{color:'white',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
-                                <li style={{color:'white',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
-                                <li style={{color:'white',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
-                                <li style={{color:'white',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
-                                <li style={{color:'white',fontSize:21,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
-                                <li style={{color:'white',fontSize:21,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
+                                <li style={{color:'orange',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Llaveros</li>
+                                <li style={{color:'orange',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Libro de firmas</li>
+                                <li style={{color:'orange',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Portarretratos</li>
+                                <li style={{color:'orange',fontSize:21,cursor:'pointer', fontWeight:'bold'}}  onClick={(e)=>handleCategoria(e.target.innerText)}>Alcancias</li>
+                                <li style={{color:'orange',fontSize:21,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de acrilico</li>
+                                <li style={{color:'orange',fontSize:21,cursor:'pointer', fontWeight:'bold'}}   onClick={(e)=>handleCategoria(e.target.innerText)}>Termos de metal</li>
 
 
                             </ul>
@@ -179,7 +179,7 @@ export const Header = () => {
                             </div>
 
                                 <div style={{textAlign:'center',marginTop:25}}>
-                                <p style={{color:'white'}}><i>&copy; 2023 Copyright : ByFeliz</i> </p>
+                                <p style={{color:'orange'}}><i>&copy; 2023 Copyright : ByFeliz</i> </p>
                             </div>
                         </Drawer>
                         </>
