@@ -50,7 +50,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input 
-                        prefix={<UserOutlined style={{color: '#114B9C'}} 
+                        prefix={<UserOutlined style={{color: 'orange'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Nombre" 
                         autoComplete="off"
@@ -66,7 +66,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input 
-                        prefix={<MailOutlined style={{color: '#114B9C'}} 
+                        prefix={<MailOutlined style={{color: 'orange'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Correo" 
                         autoComplete="off"
@@ -83,7 +83,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input.Password 
-                        prefix={<LockOutlined style={{color: '#114B9C'}} 
+                        prefix={<LockOutlined style={{color: 'orange'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Contraseña"
                         autoComplete="off"
@@ -101,7 +101,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     >
                     <Input.Password 
                         prefix={<LockOutlined 
-                        style={{color: '#114B9C'}} 
+                        style={{color: 'orange'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Validar Contraseña" 
                         autoComplete="off"
@@ -112,7 +112,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     <Button type="primary" block htmlType="submit" className="login-form-button btn-login">
                         Registrarse
                     </Button>
-                    <Button style={{color: '#114B9C'}}  type="link" onClick={()=>{cambioAuth()}}>
+                    <Button style={{color: 'orange'}}  type="link" onClick={()=>{cambioAuth()}}>
                         ¿Ya tienes una cuenta? Inicia sesión
                     </Button>
                 </Form.Item>

@@ -146,7 +146,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 .header-principal {
     /*background-color: #F58634;*/
     
-    background-image: url('https://img.freepik.com/vector-premium/leyenda-dia-independencia-mexico-16-septiembre-ilustracion-vectorial_290522-439.jpg');
+    background-image: url('https://img.freepik.com/fotos-premium/banner-celebracion-halloween-espacio-copia-texto-color-naranja-negro_991638-340.jpg');
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -169,8 +169,8 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .btn-login {
     margin-top: 10px;
-    background-color: #114B9C !important;
-    border-color: #114B9C !important;
+    background-color: orange !important;
+    border-color: orange !important;
     float: left;
    
 }
@@ -179,7 +179,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
     position: relative;
     height: 90px;
     box-shadow: 0 0 10px #d1d1d1;
-    color: #114B9C;
+    color: orange;
     width: 100%;
 }
 
@@ -223,7 +223,7 @@ ul{
 .pie-pagina{
     width: 100%;
     /*background-color: #0a141d ;*/
-    background-image: url('https://media.cntraveler.com/photos/57dc0a553e6b32bf25f5ad48/16:9/w_2560%2Cc_limit/GettyImages-465300652.jpg');
+    background-image: url('https://i.etsystatic.com/7673973/r/il/cd8767/3334884066/il_fullxfull.3334884066_abbm.jpg');
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -248,14 +248,14 @@ ul{
 }
 
 .pie-pagina .grupo-1 .box h2{
-    color:#114B9C;
+    color:white;
     margin-bottom: 25px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .pie-pagina .grupo-1 .box p{
-    color: #114B9C;
+    color: white;
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
@@ -267,15 +267,15 @@ ul{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color:white ;
+    color: orange ;
     margin-right: 10px;
-    background-color: #114B9C;
+    background-color: white;
     text-align: center;
     transition: all 300ms ease;
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    color:#5EC0A7;
+    color: orangered;
 }
 
 .pie-pagina .grupo-2{

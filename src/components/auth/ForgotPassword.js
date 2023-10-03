@@ -32,7 +32,7 @@ export const ForgotPassword = () => {
                             rules={[
                             {
                                 required: true,
-                                message: 'Please input your email!',
+                                message: 'Por favor digita tu email',
                             },
                             ]}
                         >
@@ -44,7 +44,7 @@ export const ForgotPassword = () => {
                         
                         >
                             
-                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'#114B9C',border:'none'}} htmlType="submit">
+                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'orange',border:'none'}} htmlType="submit">
                                 Enviar correo
                             </Button>
 
