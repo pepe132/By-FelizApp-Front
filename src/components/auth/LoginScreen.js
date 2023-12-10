@@ -52,7 +52,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
             ]}
           >
             <Input 
-              prefix={<UserOutlined style={{color: 'orange'}} className="site-form-item-icon" />} 
+              prefix={<UserOutlined style={{color: 'red'}} className="site-form-item-icon" />} 
               placeholder="Correo" 
               autoComplete="off"
             />
@@ -67,7 +67,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
             ]}
           >
             <Input
-              prefix={<LockOutlined style={{color: 'orange'}} className="site-form-item-icon" />}
+              prefix={<LockOutlined style={{color: 'red'}} className="site-form-item-icon" />}
               type="password"
               placeholder="Contraseña"
               autoComplete="off"
@@ -105,13 +105,13 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
 
           <div style={{width:'50%'}}>
 
-              <Button  type='link' onClick={()=>{cambioAuth()}} style={{paddingLeft:0, color:'orange'}}>
+              <Button  type='link' onClick={()=>{cambioAuth()}} style={{paddingLeft:0, color:'red'}}>
               Ó regístrate
               </Button>
           </div>
           
             <div style={{width:'50%'}}>
-              <Button   type='link' onClick={handleNavigate} style={{paddingLeft:0,color:'orange'}}>
+              <Button   type='link' onClick={handleNavigate} style={{paddingLeft:0,color:'red'}}>
               ¿Olvidaste tu contraseña?
               </Button>
 

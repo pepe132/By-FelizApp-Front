@@ -166,7 +166,7 @@ const handleEditarPortada = (e,idproducto) => {
                 <Col span={24}>
                   <div style={{textAlign:'center',marginBottom:30}}>
 
-                    <Button type="primary" block style={{width:'100%',backgroundColor:'orange',border:'none',borderRadius:30,fontSize:20,height:40,fontFamily:'-moz-initial'}} onClick={()=>handleGallery(producto.images,id)}><span style={{textAlign:'center'}}>Mostrar mas imágenes o modelos</span></Button>
+                    <Button type="primary" block style={{width:'100%',backgroundColor:'red',border:'none',borderRadius:30,fontSize:20,height:40,fontFamily:'-moz-initial'}} onClick={()=>handleGallery(producto.images,id)}><span style={{textAlign:'center'}}>Mostrar mas imágenes o modelos</span></Button>
 
                   </div>
                 
@@ -302,7 +302,7 @@ const handleEditarPortada = (e,idproducto) => {
                   
 
                       <Form.Item>
-                        <Button  htmlType="submit" type="primary" style={{backgroundColor:'orange',border:'none',borderRadius:30}} >
+                        <Button  htmlType="submit" type="primary" style={{backgroundColor:'red',border:'none',borderRadius:30}} >
                           Añadir comentario y calificación
                         </Button>
                       </Form.Item>
