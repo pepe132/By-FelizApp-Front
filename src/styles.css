@@ -144,9 +144,9 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 }
 
 .header-principal {
-    /*background-color: #F58634;*/
+    background-color: #ECB368;
     
-    background-image: url('https://img.freepik.com/psd-premium/feliz-dia-san-valentin_136295-124.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais');
+    /* background-image: url('https://img.freepik.com/psd-premium/feliz-dia-san-valentin_136295-124.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais'); */
     box-sizing: border-box;
     align-items: center;
     width: 100%;
@@ -168,8 +168,8 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .btn-login {
     margin-top: 10px;
-    background-color: red !important;
-    border-color: red !important;
+    background-color: #5EC0A7 !important;
+    border-color: #5EC0A7 !important;
     float: left;
    
 }
@@ -221,8 +221,8 @@ ul{
 
 .pie-pagina{
     width: 100%;
-    /*background-color: #0a141d ;*/
-    background-image: url('https://cdn.mexicodestinos.com/content/img/landingsOfertas/san-valentin-imagen-fondo-mov.jpg');
+    background-color: #E3D0C1 ;
+    /* background-image: url('https://i.pinimg.com/originals/56/1a/d2/561ad2b1f10baf5b8ad5abf43ef18fc3.jpg'); */
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -266,7 +266,7 @@ ul{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: red ;
+    color: #E1C7AC;
     margin-right: 10px;
     background-color: white;
     text-align: center;
@@ -274,7 +274,7 @@ ul{
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: orangered;
+    color: #E1C7AC;
 }
 
 .pie-pagina .grupo-2{

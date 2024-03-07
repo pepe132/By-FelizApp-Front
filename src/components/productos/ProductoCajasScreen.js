@@ -166,7 +166,7 @@ const handleEditarPortada = (e,idproducto) => {
                 <Col span={24}>
                   <div style={{textAlign:'center',marginBottom:30}}>
 
-                    <Button type="primary" block style={{width:'100%',backgroundColor:'red',border:'none',borderRadius:30,fontSize:20,height:40,fontFamily:'-moz-initial'}} onClick={()=>handleGallery(producto.images,id)}><span style={{textAlign:'center'}}>Mostrar mas imágenes o modelos</span></Button>
+                    <Button type="primary" block style={{width:'100%',backgroundColor:'#5EC0A7',border:'none',borderRadius:30,fontSize:20,height:40,fontFamily:'-moz-initial'}} onClick={()=>handleGallery(producto.images,id)}><span style={{textAlign:'center'}}>Mostrar mas imágenes o modelos</span></Button>
 
                   </div>
                 

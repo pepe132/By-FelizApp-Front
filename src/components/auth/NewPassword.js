@@ -51,21 +51,21 @@ export const NewPassword = () => {
                             name="password"
                            
                         >
-                            <Input.Password type='password' placeholder='Digita tu contraseña'  prefix={<LockOutlined style={{color: 'red'}} className="site-form-item-icon" />}  />
+                            <Input.Password type='password' placeholder='Digita tu contraseña'  prefix={<LockOutlined style={{color: '#5EC0A7'}} className="site-form-item-icon" />}  />
                         </Form.Item>
 
                         <Form.Item
                             name="passwordSame"
                            
                         >
-                            <Input.Password placeholder='Confirma tu contraseña'  prefix={<LockOutlined style={{color: 'red'}} className="site-form-item-icon" />}  />
+                            <Input.Password placeholder='Confirma tu contraseña'  prefix={<LockOutlined style={{color: '#5EC0A7'}} className="site-form-item-icon" />}  />
                         </Form.Item>
 
                         
                         <Form.Item
                         
                         >
-                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'red',border:'none',width:'50%'}} htmlType="submit">
+                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'#5EC0A7',border:'none',width:'50%'}} htmlType="submit">
                             Cambiar
                             </Button>
                         </Form.Item>

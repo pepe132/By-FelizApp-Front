@@ -96,7 +96,7 @@ export const ModalCajasScreen = ({cajasValues,setCajaValues,initValues,isModalVi
                     <Button  onClick={handleCancelar} >Cancelar</Button>
                 </Form.Item>
                 <Form.Item>
-                        <Button htmlType="submit" style={{backgroundColor: '#F58634', color: 'white' , marginLeft: '5px'}}>Aceptar</Button>
+                        <Button htmlType="submit" style={{backgroundColor: '#ECB368', color: 'white' , marginLeft: '5px'}}>Aceptar</Button>
                 </Form.Item>
                 </div>
 

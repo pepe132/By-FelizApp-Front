@@ -65,7 +65,7 @@ export const DiseñosVinilo = () => {
             text: 'Se dará de baja temporalmente de la aplicacion',
             showDenyButton: true,
             confirmButtonText: 'Aceptar',
-            confirmButtonColor: '#88b923',
+            confirmButtonColor: '#ECB368',
             denyButtonText: `Cancelar`,
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
@@ -151,7 +151,7 @@ export const DiseñosVinilo = () => {
 
                                             <Card.Grid  hoverable={false} style={{width: '100%', boxShadow: 'none'}}>
                                                 <div>
-                                                    <Button type="primary" block style={{backgroundColor:'red',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleVinil(vinil._id)}>
+                                                    <Button type="primary" block style={{backgroundColor:'#5EC0A7',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleVinil(vinil._id)}>
                                                       <span style={{fontSize:15,fontWeight:'bold'}}>Ver detalles</span>
                                                     </Button>
                                                     {
@@ -202,7 +202,7 @@ export const DiseñosVinilo = () => {
                 (id && rol==='ADMIN_ROLE') && (
                     <>
                         <Container>
-                            <FloatingButton onClick={showModal} styles={{backgroundColor: 'orange', color: 'white'}}><PlusOutlined style={{fontSize: '20px',cursor:'pointer'}} /></FloatingButton>
+                            <FloatingButton onClick={showModal} styles={{backgroundColor: '#5EC0A7', color: 'white'}}><PlusOutlined style={{fontSize: '20px',cursor:'pointer'}} /></FloatingButton>
                         </Container>
 
                         <ModalVinilScreen

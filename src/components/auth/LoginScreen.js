@@ -34,6 +34,10 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
     
     return (
         <div>
+         <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginBottom:20}}>
+
+          <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={170}/>
+        </div>
         <Form
           className="login-form"
           initialValues={{
@@ -52,7 +56,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
             ]}
           >
             <Input 
-              prefix={<UserOutlined style={{color: 'red'}} className="site-form-item-icon" />} 
+              prefix={<UserOutlined style={{color: '#5EC0A7'}} className="site-form-item-icon" />} 
               placeholder="Correo" 
               autoComplete="off"
             />
@@ -67,7 +71,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
             ]}
           >
             <Input
-              prefix={<LockOutlined style={{color: 'red'}} className="site-form-item-icon" />}
+              prefix={<LockOutlined style={{color: '#5EC0A7'}} className="site-form-item-icon" />}
               type="password"
               placeholder="Contraseña"
               autoComplete="off"
@@ -105,13 +109,13 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
 
           <div style={{width:'50%'}}>
 
-              <Button  type='link' onClick={()=>{cambioAuth()}} style={{paddingLeft:0, color:'red'}}>
+              <Button  type='link' onClick={()=>{cambioAuth()}} style={{paddingLeft:0, color:'#5EC0A7'}}>
               Ó regístrate
               </Button>
           </div>
           
             <div style={{width:'50%'}}>
-              <Button   type='link' onClick={handleNavigate} style={{paddingLeft:0,color:'red'}}>
+              <Button   type='link' onClick={handleNavigate} style={{paddingLeft:0,color:'#5EC0A7'}}>
               ¿Olvidaste tu contraseña?
               </Button>
 

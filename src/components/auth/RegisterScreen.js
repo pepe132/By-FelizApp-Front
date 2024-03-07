@@ -26,13 +26,17 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     title: 'Error',
                     text: 'Las contraseñas no coinciden',
                     icon: 'error',
-                    confirmButtonColor: 'red',
+                    confirmButtonColor: '#ECB368',
                     confirmButtonText: 'Aceptar'
                 })
        
     }
   return (
     <div>
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginBottom:20}}>
+
+            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1678320682/logo_primavera_wltmg5.jpg' alt='byfeliz' width={170}/>
+        </div>
             <Form 
                 initialValues={{
                     remember: true,
@@ -50,7 +54,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input 
-                        prefix={<UserOutlined style={{color: 'orange'}} 
+                        prefix={<UserOutlined style={{color: '#5EC0A7'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Nombre" 
                         autoComplete="off"
@@ -66,7 +70,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input 
-                        prefix={<MailOutlined style={{color: 'orange'}} 
+                        prefix={<MailOutlined style={{color: '#5EC0A7'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Correo" 
                         autoComplete="off"
@@ -83,7 +87,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input.Password 
-                        prefix={<LockOutlined style={{color: 'orange'}} 
+                        prefix={<LockOutlined style={{color: '#5EC0A7'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Contraseña"
                         autoComplete="off"
@@ -101,7 +105,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     >
                     <Input.Password 
                         prefix={<LockOutlined 
-                        style={{color: 'orange'}} 
+                        style={{color: '#5EC0A7'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Validar Contraseña" 
                         autoComplete="off"
@@ -112,7 +116,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     <Button type="primary" block htmlType="submit" className="login-form-button btn-login">
                         Registrarse
                     </Button>
-                    <Button style={{color: 'orange'}}  type="link" onClick={()=>{cambioAuth()}}>
+                    <Button style={{color: '#5EC0A7'}}  type="link" onClick={()=>{cambioAuth()}}>
                         ¿Ya tienes una cuenta? Inicia sesión
                     </Button>
                 </Form.Item>
