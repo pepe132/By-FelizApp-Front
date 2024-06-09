@@ -144,9 +144,9 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 }
 
 .header-principal {
-    background-color: #ECB368;
+    /* background-color: #ECB368; */
     
-    /* background-image: url('https://img.freepik.com/psd-premium/feliz-dia-san-valentin_136295-124.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais'); */
+    background-image: url('https://i.ytimg.com/vi/bU1lsWaxqqs/maxresdefault.jpg');
     box-sizing: border-box;
     align-items: center;
     width: 100%;
@@ -168,8 +168,8 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .btn-login {
     margin-top: 10px;
-    background-color: #5EC0A7 !important;
-    border-color: #5EC0A7 !important;
+    background-color: #21839C !important;
+    border-color: #21839C !important;
     float: left;
    
 }
@@ -221,8 +221,8 @@ ul{
 
 .pie-pagina{
     width: 100%;
-    background-color: #E3D0C1 ;
-    /* background-image: url('https://i.pinimg.com/originals/56/1a/d2/561ad2b1f10baf5b8ad5abf43ef18fc3.jpg'); */
+    background-color: #21839C ;
+    /* background-image: url('https://img.freepik.com/fotos-premium/concepto-feliz-dia-padre-galletas-sobre-fondo-azul-madera-lugar-texto_178193-691.jpg'); */
 }
 .pie-pagina .grupo-1{
     width: 100%;
