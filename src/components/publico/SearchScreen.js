@@ -104,7 +104,7 @@ const handleCajas=(idcaja)=>{
 
                                       <Card.Grid  hoverable={false} style={{width: '100%', boxShadow: 'none'}}>
                                           <div>
-                                              <Button type="primary" block style={{backgroundColor:'#21839C',border:'none',borderRadius:30}} onClick={()=>handleCajas(res._id)}>
+                                              <Button type="primary" block style={{backgroundColor:'#F58634',border:'none',borderRadius:30}} onClick={()=>handleCajas(res._id)}>
                                                   <span style={{fontSize:15,fontWeight:'bold'}}>Ver detalles</span>
                                               </Button>
           

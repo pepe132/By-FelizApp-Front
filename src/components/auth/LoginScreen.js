@@ -36,7 +36,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
         <div>
          <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginBottom:20}}>
 
-          <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1717975516/logo_padre_kyzhlt.jpg' alt='byfeliz' width={170}/>
+          <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1696345954/logo_halloween_cars3z.jpg' alt='byfeliz' width={170}/>
         </div>
         <Form
           className="login-form"
@@ -56,7 +56,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
             ]}
           >
             <Input 
-              prefix={<UserOutlined style={{color: '#21839C'}} className="site-form-item-icon" />} 
+              prefix={<UserOutlined style={{color: '#F58634'}} className="site-form-item-icon" />} 
               placeholder="Correo" 
               autoComplete="off"
             />
@@ -71,7 +71,7 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
             ]}
           >
             <Input
-              prefix={<LockOutlined style={{color: '#21839C'}} className="site-form-item-icon" />}
+              prefix={<LockOutlined style={{color: '#F58634'}} className="site-form-item-icon" />}
               type="password"
               placeholder="Contraseña"
               autoComplete="off"
@@ -109,13 +109,13 @@ export const LoginScreen = ({changeAuth, closeDrawer}) => {
 
           <div style={{width:'50%'}}>
 
-              <Button  type='link' onClick={()=>{cambioAuth()}} style={{paddingLeft:0, color:'#21839C'}}>
+              <Button  type='link' onClick={()=>{cambioAuth()}} style={{paddingLeft:0, color:'#F58634'}}>
               Ó regístrate
               </Button>
           </div>
           
             <div style={{width:'50%'}}>
-              <Button   type='link' onClick={handleNavigate} style={{paddingLeft:0,color:'#21839C'}}>
+              <Button   type='link' onClick={handleNavigate} style={{paddingLeft:0,color:'#F58634'}}>
               ¿Olvidaste tu contraseña?
               </Button>
 
