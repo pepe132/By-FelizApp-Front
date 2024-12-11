@@ -146,7 +146,7 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 .header-principal {
     /* background-color: #ECB368; */
     
-    background-image: url('../src/assets/hal.jpeg');
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_pic/04/44/16/115853b2f40b5e6.jpg');
     box-sizing: border-box;
     align-items: center;
     width: 100%;
@@ -168,8 +168,8 @@ span.anticon.anticon-right.slick-arrow.slick-next, span.anticon.anticon-left.sli
 
 .btn-login {
     margin-top: 10px;
-    background-color: #F58634 !important;
-    border-color: #F58634 !important;
+    background-color: #BE1A25 !important;
+    border-color: #BE1A25 !important;
     float: left;
    
 }
@@ -221,7 +221,7 @@ ul{
 
 .pie-pagina{
     width: 100%;
-    background-color: #F58634 ;
+    background-color: #D02E39 ;
     /* background-image: url('https://img.freepik.com/fotos-premium/concepto-feliz-dia-padre-galletas-sobre-fondo-azul-madera-lugar-texto_178193-691.jpg'); */
 }
 .pie-pagina .grupo-1{

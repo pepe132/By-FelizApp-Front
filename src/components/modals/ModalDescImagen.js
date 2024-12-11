@@ -43,7 +43,7 @@ export const ModalDescImagen = ({id,imagesValues,setImagesValues,initValues,setI
                 <Button  onClick={handleCancelar} >Cancelar</Button>
             </Form.Item>
             <Form.Item>
-                    <Button htmlType="submit" style={{backgroundColor: '#F58634', color: 'white' , marginLeft: '5px'}}>Añadir</Button>
+                    <Button htmlType="submit" style={{backgroundColor: '#BE1A25', color: 'white' , marginLeft: '5px'}}>Añadir</Button>
             </Form.Item>
             </div>
 

@@ -150,7 +150,7 @@ export const DiseñosMdf = () => {
 
                                             <Card.Grid  hoverable={false} style={{width: '100%', boxShadow: 'none'}}>
                                                 <div>
-                                                    <Button type="primary" block style={{backgroundColor:'#F58634',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleNavigate(mdf._id)}>
+                                                    <Button type="primary" block style={{backgroundColor:'#BE1A25',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleNavigate(mdf._id)}>
                                                         <span style={{fontSize:15,fontWeight:'bold'}}>Ver detalles</span>
                                                     </Button>
                                                     {
@@ -201,7 +201,7 @@ export const DiseñosMdf = () => {
                 (id && rol==='ADMIN_ROLE') && (
                     <>
                         <Container >
-                            <FloatingButton onClick={showModal} styles={{backgroundColor: '#F58634', color: 'white'}}><PlusOutlined style={{fontSize: '20px',cursor:'pointer'}} /></FloatingButton>
+                            <FloatingButton onClick={showModal} styles={{backgroundColor: '#BE1A25', color: 'white'}}><PlusOutlined style={{fontSize: '20px',cursor:'pointer'}} /></FloatingButton>
                         </Container>
 
 

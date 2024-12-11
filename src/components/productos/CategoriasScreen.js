@@ -101,7 +101,7 @@ export const CategoriasScreen = () => {
 
                                         <Card.Grid  hoverable={false} style={{width: '100%', boxShadow: 'none'}}>
                                             <div>
-                                                <Button type="primary" block style={{backgroundColor:'#F58634',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleCajas(res._id)}>
+                                                <Button type="primary" block style={{backgroundColor:'#BE1A25',border:'none',borderRadius:30,marginBottom:'15px'}} onClick={()=>handleCajas(res._id)}>
                                                     <UnorderedListOutlined style={{fontSize:20}}/> <span style={{fontSize:15,fontWeight:'bold'}}>Ver detalles</span>
                                                 </Button>
             

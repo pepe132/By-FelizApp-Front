@@ -44,7 +44,7 @@ export const ForgotPassword = () => {
                         
                         >
                             
-                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'#F58634',border:'none'}} htmlType="submit">
+                            <Button block type="primary" style={{borderRadius:30,backgroundColor:'#BE1A25',border:'none'}} htmlType="submit">
                                 Enviar correo
                             </Button>
 

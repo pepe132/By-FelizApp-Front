@@ -35,7 +35,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
     <div>
         <div style={{display:'flex',alignItems:'center',justifyContent:'center',marginBottom:20}}>
 
-            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1696345954/logo_halloween_cars3z.jpg' alt='byfeliz' width={170}/>
+            <img src='https://res.cloudinary.com/dwvfkyc6l/image/upload/v1702241848/logo_navidad_ckp6q6.jpg' alt='byfeliz' width={170}/>
         </div>
             <Form 
                 initialValues={{
@@ -54,7 +54,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input 
-                        prefix={<UserOutlined style={{color: '#F58634'}} 
+                        prefix={<UserOutlined style={{color: '#BE1A25'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Nombre" 
                         autoComplete="off"
@@ -70,7 +70,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input 
-                        prefix={<MailOutlined style={{color: '#F58634'}} 
+                        prefix={<MailOutlined style={{color: '#BE1A25'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Correo" 
                         autoComplete="off"
@@ -87,7 +87,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     ]}
                     >
                     <Input.Password 
-                        prefix={<LockOutlined style={{color: '#F58634'}} 
+                        prefix={<LockOutlined style={{color: '#BE1A25'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Contraseña"
                         autoComplete="off"
@@ -105,7 +105,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     >
                     <Input.Password 
                         prefix={<LockOutlined 
-                        style={{color: '#F58634'}} 
+                        style={{color: '#BE1A25'}} 
                         className="site-form-item-icon" />} 
                         placeholder="Validar Contraseña" 
                         autoComplete="off"
@@ -116,7 +116,7 @@ export const RegisterScreen = ({changeAuth, closeDrawer}) => {
                     <Button type="primary" block htmlType="submit" className="login-form-button btn-login">
                         Registrarse
                     </Button>
-                    <Button style={{color: '#F58634'}}  type="link" onClick={()=>{cambioAuth()}}>
+                    <Button style={{color: '#BE1A25'}}  type="link" onClick={()=>{cambioAuth()}}>
                         ¿Ya tienes una cuenta? Inicia sesión
                     </Button>
                 </Form.Item>
