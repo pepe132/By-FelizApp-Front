@@ -58,7 +58,7 @@ export const GaleriaProductos = () => {
                             (id_usuario && rol==='ADMIN_ROLE') && (
                               
 
-                                <Button type='primary' style={{borderRadius:30,backgroundColor:'#BE1A25',border:'none',bottom:10}} onClick={()=>handleEditar(slide._id,slide.alt)}>Editar desc.</Button>
+                                <Button type='primary' style={{borderRadius:30,backgroundColor:'#4BA4D1',border:'none',bottom:10}} onClick={()=>handleEditar(slide._id,slide.alt)}>Editar desc.</Button>
                             
 
                             )
